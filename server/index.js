@@ -56,6 +56,5 @@ supports.cssModuleHook({
 });
 
 supports.isomorphicExtendRequire().then(() => {
-  console.log("CONFIG IS :  ", config);
   require("./express-server")(config);  // eslint-disable-line
 });
